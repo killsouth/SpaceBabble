@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D5C35D31D432E790086BD5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35D21D432E790086BD5E /* main.m */; };
+		7D5C35D61D432E790086BD5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35D51D432E790086BD5E /* AppDelegate.m */; };
+		7D5C35DC1D432E790086BD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35DA1D432E790086BD5E /* Main.storyboard */; };
+		7D5C35DE1D432E790086BD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35DD1D432E790086BD5E /* Assets.xcassets */; };
+		7D5C35E11D432E790086BD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35DF1D432E790086BD5E /* LaunchScreen.storyboard */; };
+		7D5C35ED1D43302D0086BD5E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35EC1D43302D0086BD5E /* BaseViewController.m */; };
+		7D5C35F01D4330570086BD5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35EF1D4330570086BD5E /* MainViewController.m */; };
+		7D5C35F41D4330FD0086BD5E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35F31D4330FD0086BD5E /* SettingViewController.m */; };
+		7D5C35F71D4331180086BD5E /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35F61D4331180086BD5E /* GameOverViewController.m */; };
+		7D5C35FA1D4331830086BD5E /* SpaceBabbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C35F91D4331830086BD5E /* SpaceBabbleViewController.m */; };
+		7D5C36041D43326B0086BD5E /* alien2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35FD1D43326B0086BD5E /* alien2.wav */; };
+		7D5C36051D43326B0086BD5E /* axe_throw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35FE1D43326B0086BD5E /* axe_throw.wav */; };
+		7D5C36061D43326B0086BD5E /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C35FF1D43326B0086BD5E /* click.wav */; };
+		7D5C36071D43326B0086BD5E /* GameLoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C36001D43326B0086BD5E /* GameLoop.mp3 */; };
+		7D5C36081D43326B0086BD5E /* hit_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C36011D43326B0086BD5E /* hit_2.wav */; };
+		7D5C36091D43326B0086BD5E /* laser_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C36021D43326B0086BD5E /* laser_1.wav */; };
+		7D5C360A1D43326B0086BD5E /* mechanical_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C36031D43326B0086BD5E /* mechanical_1.wav */; };
+		7D5C36A91D43664C0086BD5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C36A81D43664C0086BD5E /* AVFoundation.framework */; };
+		7D5C36BB1D438C350086BD5E /* SpriteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C36BA1D438C350086BD5E /* SpriteHelper.m */; };
+		7D5C36BE1D438D140086BD5E /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C36BD1D438D140086BD5E /* Sprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D5C35CE1D432E790086BD5E /* SpaceBabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceBabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5C35D21D432E790086BD5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SpaceBabble/main.m; sourceTree = "<group>"; };
+		7D5C35D41D432E790086BD5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SpaceBabble/AppDelegate.h; sourceTree = "<group>"; };
+		7D5C35D51D432E790086BD5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SpaceBabble/AppDelegate.m; sourceTree = "<group>"; };
+		7D5C35DB1D432E790086BD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D5C35DD1D432E790086BD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SpaceBabble/Assets.xcassets; sourceTree = "<group>"; };
+		7D5C35E01D432E790086BD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D5C35E21D432E790086BD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpaceBabble/Info.plist; sourceTree = "<group>"; };
+		7D5C35EB1D43302D0086BD5E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7D5C35EC1D43302D0086BD5E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7D5C35EE1D4330570086BD5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7D5C35EF1D4330570086BD5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7D5C35F21D4330FD0086BD5E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Main/SettingViewController.h; sourceTree = "<group>"; };
+		7D5C35F31D4330FD0086BD5E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Main/SettingViewController.m; sourceTree = "<group>"; };
+		7D5C35F51D4331180086BD5E /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverViewController.h; path = Main/GameOverViewController.h; sourceTree = "<group>"; };
+		7D5C35F61D4331180086BD5E /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverViewController.m; path = Main/GameOverViewController.m; sourceTree = "<group>"; };
+		7D5C35F81D4331830086BD5E /* SpaceBabbleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpaceBabbleViewController.h; path = Main/SpaceBabbleViewController.h; sourceTree = "<group>"; };
+		7D5C35F91D4331830086BD5E /* SpaceBabbleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpaceBabbleViewController.m; path = Main/SpaceBabbleViewController.m; sourceTree = "<group>"; };
+		7D5C35FD1D43326B0086BD5E /* alien2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alien2.wav; sourceTree = "<group>"; };
+		7D5C35FE1D43326B0086BD5E /* axe_throw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = axe_throw.wav; sourceTree = "<group>"; };
+		7D5C35FF1D43326B0086BD5E /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		7D5C36001D43326B0086BD5E /* GameLoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameLoop.mp3; sourceTree = "<group>"; };
+		7D5C36011D43326B0086BD5E /* hit_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit_2.wav; sourceTree = "<group>"; };
+		7D5C36021D43326B0086BD5E /* laser_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser_1.wav; sourceTree = "<group>"; };
+		7D5C36031D43326B0086BD5E /* mechanical_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_1.wav; sourceTree = "<group>"; };
+		7D5C36A81D43664C0086BD5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7D5C36B91D438C350086BD5E /* SpriteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpriteHelper.h; path = Main/SpriteHelper.h; sourceTree = "<group>"; };
+		7D5C36BA1D438C350086BD5E /* SpriteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpriteHelper.m; path = Main/SpriteHelper.m; sourceTree = "<group>"; };
+		7D5C36BC1D438D140086BD5E /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprite.h; path = Main/Sprite.h; sourceTree = "<group>"; };
+		7D5C36BD1D438D140086BD5E /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sprite.m; path = Main/Sprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D5C35CB1D432E790086BD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C36A91D43664C0086BD5E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5C35C51D432E790086BD5E = {
+			isa = PBXGroup;
+			children = (
+				7D5C35D01D432E790086BD5E /* SpaceBabble */,
+				7D5C35EA1D432F170086BD5E /* OtherSources */,
+				7D5C35E91D432F030086BD5E /* Resources */,
+				7D5C35E81D432EAD0086BD5E /* Frameworks */,
+				7D5C35CF1D432E790086BD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D5C35CF1D432E790086BD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C35CE1D432E790086BD5E /* SpaceBabble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D5C35D01D432E790086BD5E /* SpaceBabble */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C35FB1D43319A0086BD5E /* New Group */,
+				7D5C35F11D4330750086BD5E /* ViewController */,
+				7D5C35EB1D43302D0086BD5E /* BaseViewController.h */,
+				7D5C35EC1D43302D0086BD5E /* BaseViewController.m */,
+				7D5C35EE1D4330570086BD5E /* MainViewController.h */,
+				7D5C35EF1D4330570086BD5E /* MainViewController.m */,
+			);
+			path = SpaceBabble;
+			sourceTree = "<group>";
+		};
+		7D5C35E81D432EAD0086BD5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C36A81D43664C0086BD5E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5C35E91D432F030086BD5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C35FC1D43326B0086BD5E /* Audio */,
+				7D5C35D41D432E790086BD5E /* AppDelegate.h */,
+				7D5C35D51D432E790086BD5E /* AppDelegate.m */,
+				7D5C35DA1D432E790086BD5E /* Main.storyboard */,
+				7D5C35DF1D432E790086BD5E /* LaunchScreen.storyboard */,
+				7D5C35DD1D432E790086BD5E /* Assets.xcassets */,
+				7D5C35E21D432E790086BD5E /* Info.plist */,
+				7D5C35D21D432E790086BD5E /* main.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D5C35EA1D432F170086BD5E /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OtherSources;
+			sourceTree = "<group>";
+		};
+		7D5C35F11D4330750086BD5E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C35F21D4330FD0086BD5E /* SettingViewController.h */,
+				7D5C35F31D4330FD0086BD5E /* SettingViewController.m */,
+				7D5C35F51D4331180086BD5E /* GameOverViewController.h */,
+				7D5C35F61D4331180086BD5E /* GameOverViewController.m */,
+				7D5C35F81D4331830086BD5E /* SpaceBabbleViewController.h */,
+				7D5C35F91D4331830086BD5E /* SpaceBabbleViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7D5C35FB1D43319A0086BD5E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C36B91D438C350086BD5E /* SpriteHelper.h */,
+				7D5C36BA1D438C350086BD5E /* SpriteHelper.m */,
+				7D5C36BC1D438D140086BD5E /* Sprite.h */,
+				7D5C36BD1D438D140086BD5E /* Sprite.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		7D5C35FC1D43326B0086BD5E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C35FD1D43326B0086BD5E /* alien2.wav */,
+				7D5C35FE1D43326B0086BD5E /* axe_throw.wav */,
+				7D5C35FF1D43326B0086BD5E /* click.wav */,
+				7D5C36001D43326B0086BD5E /* GameLoop.mp3 */,
+				7D5C36011D43326B0086BD5E /* hit_2.wav */,
+				7D5C36021D43326B0086BD5E /* laser_1.wav */,
+				7D5C36031D43326B0086BD5E /* mechanical_1.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D5C35CD1D432E790086BD5E /* SpaceBabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5C35E51D432E790086BD5E /* Build configuration list for PBXNativeTarget "SpaceBabble" */;
+			buildPhases = (
+				7D5C35CA1D432E790086BD5E /* Sources */,
+				7D5C35CB1D432E790086BD5E /* Frameworks */,
+				7D5C35CC1D432E790086BD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceBabble;
+			productName = SpaceBabble;
+			productReference = 7D5C35CE1D432E790086BD5E /* SpaceBabble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D5C35C61D432E790086BD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = south;
+				TargetAttributes = {
+					7D5C35CD1D432E790086BD5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S4F5NAN25L;
+					};
+				};
+			};
+			buildConfigurationList = 7D5C35C91D432E790086BD5E /* Build configuration list for PBXProject "SpaceBabble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D5C35C51D432E790086BD5E;
+			productRefGroup = 7D5C35CF1D432E790086BD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D5C35CD1D432E790086BD5E /* SpaceBabble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5C35CC1D432E790086BD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C36051D43326B0086BD5E /* axe_throw.wav in Resources */,
+				7D5C360A1D43326B0086BD5E /* mechanical_1.wav in Resources */,
+				7D5C35E11D432E790086BD5E /* LaunchScreen.storyboard in Resources */,
+				7D5C36071D43326B0086BD5E /* GameLoop.mp3 in Resources */,
+				7D5C36081D43326B0086BD5E /* hit_2.wav in Resources */,
+				7D5C36041D43326B0086BD5E /* alien2.wav in Resources */,
+				7D5C36061D43326B0086BD5E /* click.wav in Resources */,
+				7D5C35DE1D432E790086BD5E /* Assets.xcassets in Resources */,
+				7D5C35DC1D432E790086BD5E /* Main.storyboard in Resources */,
+				7D5C36091D43326B0086BD5E /* laser_1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D5C35CA1D432E790086BD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C36BB1D438C350086BD5E /* SpriteHelper.m in Sources */,
+				7D5C35F71D4331180086BD5E /* GameOverViewController.m in Sources */,
+				7D5C35ED1D43302D0086BD5E /* BaseViewController.m in Sources */,
+				7D5C35FA1D4331830086BD5E /* SpaceBabbleViewController.m in Sources */,
+				7D5C35D61D432E790086BD5E /* AppDelegate.m in Sources */,
+				7D5C35D31D432E790086BD5E /* main.m in Sources */,
+				7D5C35F01D4330570086BD5E /* MainViewController.m in Sources */,
+				7D5C35F41D4330FD0086BD5E /* SettingViewController.m in Sources */,
+				7D5C36BE1D438D140086BD5E /* Sprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D5C35DA1D432E790086BD5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5C35DB1D432E790086BD5E /* Base */,
+			);
+			name = Main.storyboard;
+			path = SpaceBabble;
+			sourceTree = "<group>";
+		};
+		7D5C35DF1D432E790086BD5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5C35E01D432E790086BD5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = SpaceBabble;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D5C35E31D432E790086BD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D5C35E41D432E790086BD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D5C35E61D432E790086BD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SpaceBabble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.south.SpaceBabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D5C35E71D432E790086BD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SpaceBabble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.south.SpaceBabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D5C35C91D432E790086BD5E /* Build configuration list for PBXProject "SpaceBabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5C35E31D432E790086BD5E /* Debug */,
+				7D5C35E41D432E790086BD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5C35E51D432E790086BD5E /* Build configuration list for PBXNativeTarget "SpaceBabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5C35E61D432E790086BD5E /* Debug */,
+				7D5C35E71D432E790086BD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D5C35C61D432E790086BD5E /* Project object */;
+}
